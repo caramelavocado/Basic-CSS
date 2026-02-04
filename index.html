@@ -2,50 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>CSS Examples</title>
 
-  <style>
-    body {
-      background: #f5f5f5;         /* light gray page background like the screenshot */
-      margin: 8px;                 /* browser-default spacing */
-      font-family: "Times New Roman", Times, serif;
-      color: #000;
-    }
-
-    h1 { font-size: 2em; margin: 0.67em 0; font-weight: bold; }
-    h2 { font-size: 1.5em; margin: 0.83em 0; font-seeight: bold; }
-
-    p {
-      margin: 1em 0;
-      font-size: 1em;
-      line-height: normal;         /* keep it close to default */
-    }
-
-    ol {
-      margin: 1em 0 1em 2.5em;      /* indent like the screenshot */
-      padding: 0;
-    }
-
-    table {
-      border-collapse: collapse;   /* no borders visible */
-      margin-top: 10px;
-    }
-
-    th, td {
-      text-align: left;
-      vertical-align: top;
-      padding: 0 28px  illustrate spacing between columns */
-      font-size: 1em;
-    }
-
-    th {
-      font-weight: bold;
-    }
-  </style>
+  <!-- External CSS (required by your assignment) -->
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
   <h1>CSS Examples</h1>
 
   <h2>Paragraphs</h2>
@@ -54,44 +18,33 @@
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget augue felis.
     Pellentesque at magna ut elit suscipit tincidunt et quis magna. Sed eu feugiat orci.
     Aenean posuere nunc a ornare scelerisque. Pellentesque varius metus in diam vestibulum
-    consequat a id metus. Etiam non semper nibh. Praesent quis porttitor risus.
-    Pellentesque maximus lorem id varius tincidunt. Proin viverra purus mollis turpis molestie,
-    in pulvinar elit auctor. Morbi libero massa, aliquam convallis nisi id, mattis vehicula magna.
-    Nullam libero nunc, molestie a tempor ut, scelerisque sed diam. Nunc tristique consectetur mollis.
-    Nulla venenatis mi massa, sit amet accumsan risus iaculis sed. Phasellus porta sapien eros et rhoncus,
-    ut accumsan est tincidunt.
+    consequat a id metus.
+  </p>
+
+  <!-- Box paragraph -->
+  <p>
+    Donec maximus lectus sed ipsum varius ornare. Cras tincidunt lacus sit amet leo viverra,
+    quis bibendum tortor posuere. Etiam a neque non nunc gravida convallis ac eu justo.
+    Nunc dignissim purus ac dapibus egestas mauris felis eleifend enim.
   </p>
 
   <p>
-    Donec maximus lectus sed ipsum varius ornare. Cras tincidunt lacus sit amet leo viverra, quis bibendum
-    tortor posuere. Etiam a neque non nunc gravida convallis ac eu justo. Nunc dignissim, purus ac dapibus egestas,
-    mauris felis eleifend enim, ac sollicitudin turpis est eu quam. Phasellus sed suscipit nunc. Praesent lobortis
-    mattis rhoncus. Mauris aliquam posuere massa a bibendum
+    Mauris id mauris convallis, elementum nibh nec, pulvinar enim. Fusce ac nulla enim.
+    Proin efficitur tincidunt ligula, non commodo nibh sodales in.
   </p>
 
+  <!-- Dark paragraph -->
   <p>
-    Mauris id mauris congue, <em>elementum nibh nec</em>, pulvinar enim. Fusce ac nulla enim. Proin efficitur tincidunt
-    ligula, non commodo nibh sodales in. Nunc pretium elementum suscipit. Aenean pellentesque in quam vel ultrices.
-    Mauris eleifend tellus dignissim nunc pretium sit amet hendrerit metus consequat. Pellentesque ullamcorper nunc eu
-    ultricies faucibus. Morbi vulputate interdum ligula, at consectetur urna consequat a. Cras aliquet, metus a consectetur
-    congue, sem nisi vehicula nulla, at maximus velit nisl ut diam. Quisque placerat dolor at ex mollis, a tristique massa
-    bibendum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus!
+    Aliquam erat volutpat. Maecenas consequat sed ante a vehicula. Integer ultricies justo
+    volutpat, convallis erat eu, pellentesque quam. Donec efficitur arcu non porta suscipit.
   </p>
 
+  <!-- Dark paragraph -->
   <p>
-    Aliquam erat volutpat. Maecenas consequat sed ante a vehicula. Integer ultricies justo volutpat, convallis erat eu,
-    pellentesque quam. Donec efficitur arcu non porta suscipit. Integer cursus nibh vitae tincidunt aliquet. Orci varius
-    natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum lacinia dapibus pharetra.
-    Donec hendrerit, orci non luctus hendrerit, urna ipsum tincidunt erat, quis varius nibh dui non diam
+    Ut vitae congue nibh, ac faucibus purus. In pulvinar mi id tellus rutrum faucibus.
+    Nunc non massa lorem. Morbi ac arcu nec risus dignissim pretium.
   </p>
 
-  <p>
-    Ut vitae congue nibh, ac faucibus purus. In pulvinar mi id tellus rutrum faucibus. Nunc non massa lorem. Morbi ac arcu
-    nec risus dignissim pretium. Sed in ex dui. Aliquam erat volutpat. Etiam enim eros, pharetra congue gravida eget, bibendum
-    et odio. Integer magna metus, accumsan ut lobortis vitae, eleifend et neque. Sed ut quam mauris. Suspendisse ac ullamcorper
-    nisl. Sed non luctus massa, nec tristique ligula. Vivamus egestas sem euismod lacus eleifend, at fringilla quam mattis.
-    Sed mattis lacus ut rutrum placerat. Fusce finibus lacus in augue pharetra luctus
-  </p>
 
   <h2>Lists, Links, and Tables</h2>
 
@@ -103,12 +56,14 @@
     <li><a href="#">Item 5</a></li>
   </ol>
 
-  <h2>Common HTML Tags</h2>
+
+  <h3>Common HTML Tags</h3>
 
   <p>
-    <a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">W3schools.com</a>
+    <a href="https://www.w3schools.com">W3schools.com</a>
     has a great resource for HTML, CSS, and JavaScript!
   </p>
+
 
   <table>
     <thead>
@@ -128,17 +83,18 @@
       </tr>
       <tr>
         <td>a</td>
-        <td>&quot;Anchor&quot;, or link. Lets users navigate to another page.</td>
+        <td>"Anchor", or link. Lets users navigate to another page.</td>
       </tr>
       <tr>
         <td>strong</td>
-        <td>Indicates how the text should have a strong inflection. By default, applies bold to the text.</td>
+        <td>Indicates how the text should have a strong inflection. By default, applies bold.</td>
       </tr>
       <tr>
         <td>img</td>
-        <td>Adds an image to the page. Uses the &quot;src&quot; attribute to specify the location of the resource.</td>
+        <td>Adds an image to the page. Uses the "src" attribute.</td>
       </tr>
     </tbody>
   </table>
+
 </body>
 </html>
